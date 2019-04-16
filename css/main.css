@@ -1,0 +1,237 @@
+*{
+    transition: all 1s;
+}
+
+
+/* SECTION PRESENTATION */
+.title-family{
+    font-family:'cgothicbold', sans-serif;
+    font-size:6.5em;
+    font-weight: bold;
+}
+
+.title-surname{
+    font-family: 'cgothicbold', sans-serif;
+    font-size:5.7em;
+    margin-top:-2px;
+}
+
+.box-presentation{
+    align-content: center;
+}
+.picture{
+    width:330px;
+    border-radius:70%;
+    margin-left:20px;
+    opacity:0.9;
+}
+
+.birth-date{
+    font-size:3.7em;
+    font-weight:bold;
+    margin-left:40px;
+}
+
+.number-phone{
+    font-size:2.2em;
+    margin-left:47px;
+}
+
+.email{
+    font-size:1.7em;
+    margin-left:47px;
+    font-family:sans-serif;
+    font-style:italic;
+}
+
+.adress{
+    font-size:1.7em;
+    margin-left:12px;
+    font-weight:bold;
+}
+
+/* SECTION LOGO */
+
+.box-logo{
+    align-content: center;
+
+}
+.logo{
+    width:7.5em;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    transform: rotate(30deg);
+}
+
+/* ./SECTION LOGO */
+
+/* ./SECTION PRESENTATION */
+
+/* BARRE BLACK */
+
+.bar{
+    height:3px;
+    background-color:black;
+}
+
+.bar-long{
+    height:3px;
+    background-color: black;
+    margin-bottom:10px;
+}
+
+.bar-vertical-lycee{
+    background-color: black;
+    position: relative;
+    height:2px;
+    width:80px;
+    margin-bottom:10px;
+    transform: rotate(270deg);
+    margin-left:-50px;
+    top:55;
+}
+
+.bar-vertical-university{
+    background-color: black;
+    position: relative;
+    height:2px;
+    width:80px;
+    margin-bottom:10px;
+    transform: rotate(270deg);
+    margin-left:240px;
+    top:39;
+}
+
+.bar-vertical-konexio{
+    background-color: black;
+    position: relative;
+    height:2px;
+    width:80px;
+    margin-bottom:10px;
+    transform: rotate(270deg);
+    top:46;
+    left:280;
+}
+
+/* ./BARRE BLACK */
+
+/* SECTION EXPERIENCE */
+
+.box-xp{
+    display:flex;
+    align-items: baseline;
+    margin-top:35px;
+}
+
+.box-hover:hover{
+    transform: scale(1.2);
+    
+}
+
+.title-xp{
+    font-size:1.8em;
+}
+
+.adress-xp{
+    font-size:1.1em;
+    position:relative;
+    top:-3px;
+    margin-left:5px;
+}
+
+.date-xp{
+    font-size:0.9em;
+    margin-left:90px;
+    position:relative;
+    top:-3px;
+    font-weight:bold;
+}
+
+.list-xp{
+    list-style-type: none;
+}
+
+.list-xp em{
+    margin-right:5px;
+}
+
+.poste-xp{
+    margin-left:-25px;
+    font-size:1.1em;
+    font-weight: bold;
+}
+
+.list-task{
+    margin-top:8px;
+    list-style-type: none;
+    margin-left:-67px;
+    font-size:0.9em;
+    font-style:italic;
+}
+
+/* ./SECTION EXPERIENCE */
+
+/* SECTION FORMATIONS */
+
+.lycee{
+    display:flex; 
+    position: relative;
+    top:80;
+    width:15em;
+    flex-direction: column;
+    margin-left:0px;
+}
+
+.date-lycee{
+    position: relative;
+    top:10;
+    left:5;
+}
+
+.name-formation{
+    font-size:1.3em;
+}
+
+.description-formation{
+   font-size:1em; 
+}
+
+.recadrage-university{
+    display:flex;
+    flex-direction:column;
+    width:15em;
+    position:relative;
+    left:35;
+    margin-bottom:100px;
+    top:-10;
+}
+
+.recadrage-konexio{
+    display:flex;
+    flex-direction:column;
+    width:13em;
+    position:relative;
+    left:350;
+    top:-10;
+    
+}
+
+.subtitle-formation{
+    font-size:0.9em;
+    margin-left:10px;
+}
+
+.lycee:hover{
+    transform: scale(1.2);
+}
+
+.university:hover{
+    transform: scale(1.2);
+}
+
+.konexio:hover{
+    transform: scale(1.2);
+}
+/* ./SECTION FORMATIONS */
